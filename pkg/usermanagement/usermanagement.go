@@ -40,6 +40,12 @@ func SetAPIKey(apiKey string) {
 	DefaultClient.APIKey = apiKey
 }
 
+// SetEndpoint configures the default client that is used by the User management methods
+// It must be called before using those functions.
+func SetEndpoint(endpoint string) {
+	DefaultClient.Endpoint = endpoint
+}
+
 // GetUser gets a User.
 func GetUser(
 	ctx context.Context,

@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/workos/workos-go/v5/pkg/common"
+	"github.com/skypaygroup/workos-go/v5/pkg/common"
 )
 
 func TestLogin(t *testing.T) {

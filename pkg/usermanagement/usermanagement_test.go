@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/workos/workos-go/v5/pkg/common"
-	"github.com/workos/workos-go/v5/pkg/mfa"
+	"github.com/skypaygroup/workos-go/v5/pkg/common"
+	"github.com/skypaygroup/workos-go/v5/pkg/mfa"
 
 	"github.com/stretchr/testify/require"
 )

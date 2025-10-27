@@ -1,7 +1,7 @@
 package workos_errors
 
 import (
-	"github.com/workos/workos-go/v5/pkg/common"
+	"github.com/skypaygroup/workos-go/v5/pkg/common"
 )
 
 // Authentication error code constants
